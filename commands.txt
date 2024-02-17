@@ -1,0 +1,31 @@
+commands for 262
+
+#Momin Khalid and G01265434
+#CS 262, Lab section 205
+#Lab 2
+CC = gcc
+CFLAGS = -g -Wall -std=c99 -pedantic-errors
+LIBS = -lm
+all: lab1_mkhalid8_205.c
+	gcc lab2_mkhalid8_205.c -o lab2_mkhalid8_205 -Wall
+clean:
+	rm lab2_mkhalid8_205
+
+
+login command
+ssh mkhalid8@zeus.gmu.edu
+ssh mkhalid8@zeus-1.gmu.edu
+ssh mkhalid8@zeus.cec.gmu.edu
+
+SCP zeus to local command
+scp mkhalid8@zeus.cec.gmu.edu:~/CS262/lab4_mkhalid8_205.tar "C:/Users/momin/OneDrive/Desktop/COLLEGE SPRING 24/CS262"
+
+SCP local to zeus
+scp "C:\Users\momin\OneDrive\Desktop\COLLEGE SPRING 24\CS262\lab4_mkhalid8\makefile" mkhalid8@zeus.vse.gmu.edu:/home/mkhalid8/CS262/lab4_mkhalid8_205
+
+
+
+SCP MAKEFILE TO zeus
+scp "C:\Users\momin\OneDrive\Desktop\COLLEGE SPRING 24\CS262\lab2_mkhalid8_205\makefile" mkhalid8@zeus.vse.gmu.edu:/home/mkhalid8/CS262/lab3_mkhalid8_205
+
+scp "C:\Users\momin\OneDrive\Desktop\COLLEGE SPRING 24\CS262\lab2_mkhalid8_205\lab3_input.txt" mkhalid8@zeus.vse.gmu.edu:/home/mkhalid8/CS262/lab3_mkhalid8_205
